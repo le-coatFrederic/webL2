@@ -1,18 +1,29 @@
-<HTML>
-<body>
-<h1> Liens vers les exercices du tp</h1>
-<a href="Hello.php"> Exercice 1</br></a>
-<a href="acorriger1.php"> Exercice 2 </br></a>
-<a href="acorriger2.php"> Exercice 3 </br></a>
-<a href="calcul.php"> Exercice 4 et 5 : Calculette </br></a>
-<a href="array.php"> Exercice 6 </br></a>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="css/page_gen.css" />
+        <title>Page de test accueil</title>
+    </head>
+    <body>
+        <header class="hautDePage">
+            <h1>Test Site PHP</h1>
+            <a class="inscription" href="inscription.php" title="Clique pour t'inscrire !"><span class="gras">Incscription</span> <img src="ressources/inscription.jpeg" alt="inscription" width="32" height="32"></a>
+        </header>
+        <div class="lienPage">
 
-<a href="acorriger2.php">  </br></a>
-</br></br>
-<hr>
-<?php
-echo " Configuration du serveur web-apache UFR des sciences";
-phpinfo();
-?>
-</body>
-</HTML>
+        </div>
+        <div class="corpsPage">
+            <section id="firstArt" class="article">
+                <h2>premier tp</h2>
+                <ol>
+                    <li><p><a href="Hello.php">Exercice 1 :</a> affichage de Hello</p></li>
+                    <li><p><a href="acorriger1.php">Exercice 2:</a> correction script</p></li>
+                    <li><p><a href="acorriger2.php">Exercice 3:</a> correction script</p></li>
+                    <li><p><a href="calcul.php">Exercice 4 et 5:</a> calculatrice</p></li>
+                    <li><p><a href="array.php">Exercice 6:</a> gestion de tab</p></li>
+                </ol>
+            </section>
+        </div>
+    </body>
+</html>

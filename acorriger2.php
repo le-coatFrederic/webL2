@@ -1,7 +1,9 @@
 <html>
 	<head>
-		<title>exo 3</title>
-	</head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="css/page_gen.css" />
+        <title>Page Exo 3</title>
+    </head>
 	<body>
 		<h2><a href="index.php">Index</a></h2>
 		<h2>A corriger 2</h2>

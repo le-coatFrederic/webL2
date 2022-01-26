@@ -1,0 +1,100 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.hautDePage{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+
+h1{
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.inscription{
+    width: auto;
+    height: 32px;
+    display: inline-block;
+    margin: 0 0 0 auto;
+    display: none;
+}
+
+.inscription span{
+    font-size: 1.5em;
+    color: black;
+    text-decoration: none;
+}
+
+img{
+    width: 48px;
+    height: 32px;
+    margin: auto;
+    display: inline-block;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+p{
+    font-size: 1.2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: justify;
+    margin: 0 5% 0 5%;
+}
+
+.souligne{
+    text-decoration: underline;
+}
+
+.barre{
+    text-decoration: line-through;
+}
+
+.ligne_dessus{
+    text-decoration: overline;
+}
+
+.gras{
+    font-weight: bold;
+}
+
+.corpsPage{
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+
+.lienPage{
+    width: 20%;
+}
+
+.article{
+    border: black 2px solid;
+    margin: auto auto 5% auto;
+    padding: 0 0 2% 2%;
+    height: 25%;
+    background-color: blue;
+}
+
+ol{
+    list-style: none;
+    padding-left: 0;
+}
+
+li{
+    min-width: 400px;
+    width: 400px;
+    margin: 4px auto;
+    display: inline-block;
+}
+
+p a{
+    color: black;
+}
